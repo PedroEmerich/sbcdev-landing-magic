@@ -122,9 +122,9 @@ function Hero() {
             decoding="async"
           />
           <div className="absolute -bottom-6 -left-6 rounded-xl border border-brand-navy/5 bg-white p-8 shadow-xl">
-            <div className="text-4xl font-black text-brand-accent">21</div>
+            <div className="text-4xl font-black text-brand-accent">+5</div>
             <div className="text-xs font-bold tracking-widest text-brand-navy/60 uppercase">
-              Anos de Idade
+              Anos de Código
             </div>
           </div>
           <div className="absolute -top-6 -right-6 rounded-xl bg-brand-navy p-8 shadow-xl">
