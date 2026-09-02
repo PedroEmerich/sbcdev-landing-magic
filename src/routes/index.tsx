@@ -94,13 +94,15 @@ function Hero() {
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
             <a
-              href="#contato"
+              href="https://wa.me/5511994480107?text=Ol%C3%A1!%20Vi%20seu%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-lg bg-brand-navy px-8 py-4 font-bold text-white transition-all hover:-translate-y-1 hover:bg-brand-accent"
             >
               SOLICITAR ORÇAMENTO
             </a>
             <a
-              href="https://www.linkedin.com/in/pedroemerich"
+              href="https://linkedin.com/in/pedroemerich"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-lg border-2 border-brand-navy px-8 py-4 font-bold text-brand-navy transition-all hover:bg-brand-navy hover:text-white"
