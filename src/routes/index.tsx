@@ -344,7 +344,7 @@ function Footer() {
               <ul className="space-y-3 text-sm text-brand-navy/70">
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/pedroemerich"
+                    href="https://linkedin.com/in/pedroemerich"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-brand-accent"
