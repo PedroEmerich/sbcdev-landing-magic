@@ -132,7 +132,7 @@ function Stats() {
     { value: "+10", label: "Projetos Entregues" },
     { value: "Full", label: "Stack & Mobile" },
     { value: "+5", label: "Anos de Código" },
-    { value: "SBC", label: "Padrão de Qualidade" },
+    { value: "Clean", label: "Arquitetura Limpa" },
   ];
 
   return (
