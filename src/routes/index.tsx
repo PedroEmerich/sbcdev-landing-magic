@@ -276,23 +276,19 @@ function Journey() {
             valor real.
           </p>
         </div>
-        <div className="relative grid gap-12 lg:grid-cols-3">
-          {steps.map((step, index) => (
-            <div key={step.year} className="relative pl-8 lg:pl-0">
-              <div className="absolute top-0 left-0 h-full w-px bg-brand-navy/20 lg:left-1/2 lg:-translate-x-1/2" />
-              <div className="absolute top-0 left-[-5px] size-3 rounded-full bg-brand-accent lg:left-1/2 lg:-translate-x-1/2" />
-              <div className="space-y-3 lg:text-center">
-                <span className="font-jetbrains text-sm font-bold text-brand-accent">
-                  {step.year}
-                </span>
-                <h3 className="text-xl font-bold">{step.title}</h3>
-                <p className="leading-relaxed text-brand-navy/70">
-                  {step.description}
-                </p>
-              </div>
-              {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-1/2 right-0 h-px w-full -translate-y-1/2 bg-brand-navy/10" />
-              )}
+        <div className="grid gap-8 md:grid-cols-3">
+          {steps.map((step) => (
+            <div
+              key={step.year}
+              className="rounded-2xl border border-brand-navy/10 bg-white p-8"
+            >
+              <span className="font-jetbrains text-sm font-bold text-brand-accent">
+                {step.year}
+              </span>
+              <h3 className="mt-3 text-xl font-bold">{step.title}</h3>
+              <p className="mt-3 leading-relaxed text-brand-navy/70">
+                {step.description}
+              </p>
             </div>
           ))}
         </div>
