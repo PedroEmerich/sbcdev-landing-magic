@@ -121,18 +121,6 @@ function Hero() {
             loading="eager"
             decoding="async"
           />
-          <div className="absolute -bottom-6 -left-6 rounded-xl border border-brand-navy/5 bg-white p-8 shadow-xl">
-            <div className="text-4xl font-black text-brand-accent">+5</div>
-            <div className="text-xs font-bold tracking-widest text-brand-navy/60 uppercase">
-              Anos de Código
-            </div>
-          </div>
-          <div className="absolute -top-6 -right-6 rounded-xl bg-brand-navy p-8 shadow-xl">
-            <div className="text-4xl font-black text-white">05</div>
-            <div className="text-xs font-bold tracking-widest text-white/60 uppercase">
-              Anos de Carreira
-            </div>
-          </div>
         </div>
       </div>
     </main>
@@ -143,7 +131,7 @@ function Stats() {
   const items = [
     { value: "+10", label: "Projetos Entregues" },
     { value: "Full", label: "Stack & Mobile" },
-    { value: "16yo", label: "Início Profissional" },
+    { value: "+5", label: "Anos de Código" },
     { value: "SBC", label: "Padrão de Qualidade" },
   ];
 
