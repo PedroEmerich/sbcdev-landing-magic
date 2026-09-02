@@ -85,7 +85,7 @@ function Hero() {
           </div>
           <h1 className="text-6xl font-extrabold leading-[0.9] tracking-tighter md:text-8xl">
             CÓDIGO <br /> <span className="text-brand-accent">SÓLIDO</span>{" "}
-            <br /> DESDE OS 16.
+            <br /> JOVEM EXPERIENTE.
           </h1>
           <p className="max-w-xl text-xl leading-relaxed font-light text-brand-navy/70 md:text-2xl">
             Sou engenheiro de software com 5 anos de experiência prática.
@@ -122,9 +122,9 @@ function Hero() {
             decoding="async"
           />
           <div className="absolute -bottom-6 -left-6 rounded-xl border border-brand-navy/5 bg-white p-8 shadow-xl">
-            <div className="text-4xl font-black text-brand-accent">21</div>
+            <div className="text-4xl font-black text-brand-accent">+5</div>
             <div className="text-xs font-bold tracking-widest text-brand-navy/60 uppercase">
-              Anos de Idade
+              Anos de Código
             </div>
           </div>
           <div className="absolute -top-6 -right-6 rounded-xl bg-brand-navy p-8 shadow-xl">
@@ -250,7 +250,7 @@ function Journey() {
       year: "2021",
       title: "Início Profissional",
       description:
-        "Aos 16 anos, comecei como Desenvolvedor Júnior na SBC Soft, construindo sistemas multiplataforma com Delphi/Pascal e publicando apps nas lojas oficiais.",
+        "Comecei cedo na SBC Soft, construindo sistemas multiplataforma com Delphi/Pascal e publicando apps nas lojas oficiais.",
     },
     {
       year: "2024",
@@ -262,7 +262,7 @@ function Journey() {
       year: "2026",
       title: "SBC Dev",
       description:
-        "Aos 21 anos, consolido minha experiência na SBC Dev para entregar engenharia de software sob medida a empresas que valorizam solidez e resultado.",
+        "Consolidação da SBC Dev para entregar engenharia de software sob medida a empresas que valorizam solidez e resultado.",
     },
   ];
 
@@ -367,9 +367,14 @@ function Footer() {
           </div>
         </div>
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-brand-navy/10 pt-8 md:flex-row">
-          <p className="font-jetbrains text-sm text-brand-navy/60">
-            © 2026 SBC DEV — BUILD_VERSION_1.0.0
-          </p>
+          <div className="space-y-1 text-center md:text-left">
+            <p className="font-jetbrains text-sm text-brand-navy/60">
+              © 2026 SBC DEV — BUILD_VERSION_1.0.0
+            </p>
+            <p className="text-xs text-brand-navy/50">
+              Por Pedro Emerich, 21 anos, com 5 anos de experiência prática em software.
+            </p>
+          </div>
           <p className="text-xs font-bold tracking-widest text-brand-navy/40 uppercase">
             São Bernardo do Campo, SP — Brasil
           </p>
