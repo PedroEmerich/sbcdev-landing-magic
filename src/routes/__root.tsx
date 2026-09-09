@@ -80,6 +80,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "SBC Dev — Engenharia de Software" },
       { name: "description", content: "SBC Dev: soluções de software robustas e escaláveis. Desenvolvimento full stack, mobile, banco de dados e modernização de sistemas." },
       { name: "author", content: "SBC Dev" },
+      { name: "google-site-verification", content: "EC0-RS_rgmo1ZuABhd_F1KgyqUvmDhUeUX-JaiIkV7U" },
       { property: "og:title", content: "SBC Dev — Engenharia de Software" },
       { property: "og:description", content: "SBC Dev: soluções de software robustas e escaláveis. Desenvolvimento full stack, mobile, banco de dados e modernização de sistemas." },
       { property: "og:type", content: "website" },
